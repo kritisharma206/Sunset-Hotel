@@ -1,0 +1,57 @@
+<html>
+<head>
+<div class="logo">
+<img src="logo.png">
+</div>
+<style>
+body{
+background-color:black;
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+.logo
+{
+margin: 5px;
+max-width:200px;
+max-height:180px;
+float:left;
+}
+.maindiv{
+width:70%;
+height:400px;
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%, -50%);
+background-image:url("slider4.jpg");
+background-size:100% 100%;
+box-shadow:1px 2px 10px 5px white;
+animation:slider 9s infinite linear;
+}
+@keyframes slider{
+0%{
+background-image:url("slider4.jpg");
+}
+20%{
+background-image:url("slider2.jpg");
+}
+40%{
+background-image:url("slider6.jpg");
+}
+60%{
+background-image:url("slider3.jpg");
+}
+80%{
+background-image:url("slider5.jpg");
+}
+}
+
+</style>
+</head>
+<body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="maindiv">
+</div>
+</body>
+</html>

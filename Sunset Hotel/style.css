@@ -1,0 +1,83 @@
+*
+{
+margin:0;
+padding:0;
+}
+body
+{
+background-image:url(finalhotel.jpg);
+background-size:1600px,1900px;
+background-repeat: no-repeat;
+}
+.logo
+{
+max-width:500%;
+max-height:500%;
+float:left;
+}
+.main-nav
+{
+color:white;
+float:right;
+list-style:none;
+margin-top:30px;
+}
+.main-nav li
+{
+display:inline-block;
+}
+.main-nav li a
+{
+color:white;
+text-decoration:none;
+padding:5px 20px;
+font-family-"Roboto",sans-serif;
+font-size:30px;
+}
+
+.main-nav li.active a
+{
+  border:1px solid white;
+}
+ .main-nav li a:hover
+{
+    border:1px solid whites;
+}
+
+
+body{
+  font-family:monospace;
+}
+.row
+{
+ max-width:1200px;
+margin:auto;
+
+}
+.container{
+position:relative;
+text-align:centre;
+color:white;
+font size:100px,100px;
+}
+.centered{
+font-size: 300px;
+font-family: 'lobster';
+color: #fff;
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
+}
+.colorchange{
+	animation: colorchangesquare 2s infinite;
+}
+@keyframes colorchangesquare{
+	0%{color: #fff;}
+	25%{color: #bf55ec;}
+	50%{color: #ff66cc;}
+	75%{color: #990033;}
+	100%{color: #bf55ec;}
+}
+}
